@@ -1,0 +1,6 @@
+git init
+git add --all
+git remote add Device https://github.com/ndfpp/device.git
+git commit -m 'first3 commit'
+git pull device master
+git push Device master 
